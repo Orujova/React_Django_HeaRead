@@ -1,0 +1,125 @@
+/**************************/
+/* CONTACT HERO SECTION */
+/**************************/
+.section-contact {
+  background-color: #ebeef6;
+  padding: 4.8rem 0 9.6rem 0;
+  height: 50rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-link a:link,
+.heading-link a:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: inherit;
+  transition: all 0.3s;
+}
+
+.heading-link a:hover,
+.heading-link a:active {
+  color: #3555a0;
+}
+
+/**************************/
+/* CONTACT LOCATION SECTION */
+/**************************/
+.section-location {
+  transform: translateY(-20%);
+}
+.location-content {
+  background-color: #ffffff;
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  padding: 3.2rem;
+}
+
+.loc-icon {
+  color: #3555a0;
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.location-title {
+  color: #333;
+  line-height: 1.3;
+  font-weight: 500;
+
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.location-text {
+  line-height: 1.7;
+  color: #636a76;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/**************************/
+/* CTA SECTION */
+/**************************/
+
+.cta {
+  padding-bottom: 12.8rem;
+}
+.cta .heading-secondary {
+  text-transform: capitalize;
+  color: #3555a0;
+  font-weight: 600;
+  margin-bottom: 5.2rem;
+  text-align: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form input,
+.cta-form textarea {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 1px #ebeef6;
+  border-radius: 9px;
+}
+.cta-form input::placeholder,
+.cta-form textarea::placeholder {
+  color: #aaa;
+}
+
+.cta-human {
+  box-shadow: inset 0 0 0 2px #ebeef6;
+
+  border-radius: 9px;
+  padding: 2.4rem 4.8rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.cta-human .subheading {
+  text-transform: none;
+}
+.cta-human .subheading span {
+  font-weight: 700;
+  color: #b30000;
+}
+
+.human-icon {
+  font-size: 3.2rem;
+  padding: 1.6rem;
+  color: #0b1120;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+/* NotFoundPage******************* */
+
+.notfound-image {
+  width: 50%;
+  transition: 0.8s;
+  animation: planeAnime 5s 1s infinite;
+  z-index: 10;
+}
+@keyframes planeAnime {
+  to {
+    transform: scale(1.8);
+  }
+}
+
+.error-content h1 {
+  font-size: 20rem;
+  color: #051036;
+  font-weight: 600;
+}
+.error-content h1 span {
+  color: #1e4295;
+}
+
+.error-content p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 400;
+  margin-bottom: 4.8rem;
+}
+/* Add this CSS to your stylesheets or use a styling solution of your choice */
+.loading-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+.loading-spinner.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loading-spinner.visible {
+  opacity: 1;
+  pointer-events: all;
+}

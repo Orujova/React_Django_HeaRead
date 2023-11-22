@@ -1,0 +1,104 @@
+/**************************/
+/* ABOUT TITLE */
+/**************************/
+.section-about {
+  background-color: #ebeef6;
+  padding: 4.8rem 0 9.6rem 0;
+
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(92, 156, 205, 0.35),
+      rgba(92, 156, 205, 0.35)
+    ),
+    url("https://images.unsplash.com/photo-1581547848545-a75a2634ba23?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+
+.section-about h1,
+.section-about h2 {
+  color: #fff;
+}
+
+/* ABOUT INFORMATION */
+
+.section-how {
+  padding: 9.6rem 0;
+}
+
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-img-box {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mission-img-box::after {
+  width: 55%;
+  padding-bottom: 55%;
+  background-color: #d2d9ea;
+  z-index: -1;
+}
+
+.step-img {
+  width: 42%;
+}
+
+/* ADVANTAGES */
+
+.feature-icon {
+  width: 40%;
+  margin-bottom: 3.2rem;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+/* TEAM */
+.section-team {
+  padding: 4.8rem 0 12.8rem;
+}
+
+.team-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}

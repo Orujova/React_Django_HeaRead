@@ -1,0 +1,134 @@
+.error-message {
+  color: #f23d3d;
+  font-size: 1.6rem;
+
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+/* loginPage */
+
+.section-login {
+  padding: 9.6rem 0;
+  color: #101930;
+}
+.login {
+  display: grid;
+  /* 2/3 = 66.6% + 1/3 = 33.3% */
+  grid-template-columns: 1fr 1fr;
+  column-gap: 6.4rem;
+
+  overflow: hidden;
+}
+.section-login .heading-secondary {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.login-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.login-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.login-fieldset {
+  border-radius: 4px;
+  border: 1px solid #79747e;
+}
+
+.login-fieldset label {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transform: translate(16px, -50%);
+  background-color: #fff;
+}
+
+.login-fieldset input {
+  width: 100%;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input::placeholder {
+  color: #aaa;
+}
+
+.login_remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login_remember div {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.login_remember label,
+.login_remember a {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.have-acount {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.have-acount p {
+  font-weight: 600;
+  padding: 2.4rem 0 3.2rem;
+}
+.have-acount .link {
+  margin: 0 1.2rem;
+  display: inline-block;
+}
+
+.login-icons div {
+  margin-top: 2.4rem;
+  border-radius: 9px;
+  padding: 1.6rem 1.2rem;
+  border: 1px solid #7288bd;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.login-icons span {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.75px;
+}
+.login-icons .social-icon {
+  color: #505f84;
+}
+
+.login-img-box {
+  border-radius: 16px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(92, 156, 205, 0.35),
+      rgba(92, 156, 205, 0.35)
+    ),
+    url("https://images.unsplash.com/photo-1612367289790-67d076b32d3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dm9pY2VyJTIwYW5kJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-position: center;
+}
